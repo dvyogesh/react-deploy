@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run deploy-gh-storybook",
-    "deploy": "gh-pages -d deploy-gh-storybook",
+    "deploy": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-gh-storybook": "build-storybook -c .storybook"
