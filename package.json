@@ -16,10 +16,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run deploy-gh-storybook",
+    "deploy": "gh-pages -d deploy-gh-storybook",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy-gh-storybook": "build-storybook -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
